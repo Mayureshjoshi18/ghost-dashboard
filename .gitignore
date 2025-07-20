@@ -1,3 +1,5 @@
 node_modules/
 ghost-frontend/node_modules/
+ghost-frontend/package-lock.json/
 ghost-backend/node_modules/
+ghost-backend/package-lock.json/

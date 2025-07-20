@@ -2,7 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import webhookRouter from './routes/webhook';
 import authRoutes from './routes/auth';
-import exportRoutes from './routes/export';
 
 
 
@@ -14,8 +13,6 @@ app.use(express.json());
 app.use('/webhook', webhookRouter);
 
 app.use('/auth', authRoutes);
-
-app.use('/export', exportRoutes);
 
 
 app.get('/', (_, res) => {
