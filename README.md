@@ -21,14 +21,15 @@ cd ghost-dashboard
 ```
 
 ### 2. Install Dependencies
-//for backend
+
+Backend
 
 ```bash
 cd ghost-backend
 npm install
 ```
 
-//for frontend
+Frontend
 
 ```bash
 cd ../ghost-frontend
