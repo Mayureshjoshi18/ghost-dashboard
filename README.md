@@ -86,7 +86,10 @@ curl -X POST http://localhost:3001/webhook/new-saas \
 
 ### Notes & Shortcuts
 • Auth is simulated with a simple token for now
+
 • Filtering, sorting, and export are handled entirely on the frontend for speed and simplicity
+
 • We're using SQLite for fast setup—great for testing, but not suited for production scale
+
 • No pagination or advanced query filters—this is meant to be lightweight and easy to work with
 
